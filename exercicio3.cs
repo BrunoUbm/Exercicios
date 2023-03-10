@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-public class Exerc3
+class Program3
 {
-    public static void Main()
+    static void Main(string[] args)
     {
         string entrada = "maca,banana,limao,abacaxi,banana";
         List<String> fruits = new List<string>(entrada.Split(','));

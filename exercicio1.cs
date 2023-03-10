@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Exercicio1
+public class Program4
 {
-public static void Main()
+static void Main(string[] args)
 {
     int convidadosNoivo = 300;
     int convidadosNoiva = 600;

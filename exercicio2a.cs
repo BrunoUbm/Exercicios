@@ -1,23 +1,25 @@
 using System;
 using System.Collections.Generic;
 
-void array ()
+class Program2
 {
-    string[] convidados = { };
-    while (convidados.Length < 5)
+    static void Main (string[] args)
     {
-        Console.WriteLine("Adicione um convidado: ");
-        string convidado = Console.ReadLine();
-        Array.Resize(ref convidados, convidados.Length + 1);
-        convidados[convidados.Length -1] = convidado;
-    }
-    if (convidados.Length == 5)
-    {
-        Console.WriteLine("\nOs convidados selecionados foram: ");
-        for (int i = 0; i < convidados.Length; i++)
+        string[] convidados = { };
+        while (convidados.Length < 5)
         {
-            Console.WriteLine(convidados[i]);
+            Console.WriteLine("Adicione um convidado: ");
+            string convidado = Console.ReadLine();
+            Array.Resize(ref convidados, convidados.Length + 1);
+            convidados[convidados.Length -1] = convidado;
+        }
+        if (convidados.Length == 5)
+        {
+            Console.WriteLine("\nOs convidados selecionados foram: ");
+            for (int i = 0; i < convidados.Length; i++)
+            {
+                Console.WriteLine(convidados[i]);
+            }
         }
     }
 }
-array();
