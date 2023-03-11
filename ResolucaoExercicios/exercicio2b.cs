@@ -1,23 +1,23 @@
 using System;
 using System.Collections.Generic;
 
-class Program1
+class Program3
 {
     static void Main (string[] args)
     {
-        List<String> convidados = new List<string>();
-        while (convidados.Count < 5)
+        List<string> guestsList = new List<string>();
+        while (guestsList.Count < 5)
         {
             Console.WriteLine("Adicione um convidado: ");
-            string convidado = Console.ReadLine();
-            convidados.Add(convidado);
+            string guestName = Console.ReadLine();
+            guestsList.Add(guestName);
         }
-        if (convidados.Count == 5)
+        if (guestsList.Count == 5)
         {
             Console.WriteLine("\nOs convidados selecionados foram: ");
-            for (int i = 0; i < convidados.Count; i++)
+            foreach (string guest in guestsList)
             {
-                Console.WriteLine(convidados[i]);
+                Console.WriteLine(guest);
             }
         }
     }

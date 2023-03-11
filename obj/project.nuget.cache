@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vqdEZuiLopN8pXcvvQ9DtNTfTPV8B5OF18RTsUOamcrn4/HSLYswJyyhZU4kR+Mki8Xjmrh8r+DLK+6tHPm3w==",
+  "dgSpecHash": "L9XOMau+k2PcMPxMwaJADE7sbfvyAA1SeYwrQLOtl4puWdlJms/5FEYu5kEgD7gUgIH0UbCy+w5wPNYMxwvAIg==",
   "success": true,
-  "projectFilePath": "/home/Modesto/Documentos/C#/C#.csproj",
+  "projectFilePath": "/home/Modesto/Documentos/csharp/C#.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

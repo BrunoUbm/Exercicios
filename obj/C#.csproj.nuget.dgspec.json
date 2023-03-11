@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/Modesto/Documentos/C#/C#.csproj": {}
+    "/home/Modesto/Documentos/csharp/C#.csproj": {}
   },
   "projects": {
-    "/home/Modesto/Documentos/C#/C#.csproj": {
+    "/home/Modesto/Documentos/csharp/C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/Modesto/Documentos/C#/C#.csproj",
+        "projectUniqueName": "/home/Modesto/Documentos/csharp/C#.csproj",
         "projectName": "C#",
-        "projectPath": "/home/Modesto/Documentos/C#/C#.csproj",
+        "projectPath": "/home/Modesto/Documentos/csharp/C#.csproj",
         "packagesPath": "/home/Modesto/.nuget/packages/",
-        "outputPath": "/home/Modesto/Documentos/C#/obj/",
+        "outputPath": "/home/Modesto/Documentos/csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/Modesto/.nuget/NuGet/NuGet.Config"

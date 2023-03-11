@@ -1,46 +1,47 @@
 ﻿using System;
 
-public class Program4
+public class Exercicio1
 {
-static void Main(string[] args)
-{
-    int convidadosNoivo = 300;
-    int convidadosNoiva = 600;
-    int convidadosPresentesNoivo = 400;
-    int convidadosPresentesNoiva = 400;
-
-    void Convidados()
+    static void Main(string[] args)
     {
-        if (convidadosNoiva > convidadosNoivo)
-        {
-            Console.WriteLine("A Noiva tem mais convidados que o Noivo");
-        }
-        else if (convidadosNoiva < convidadosNoivo)
-        {
-            Console.WriteLine("O Noivo tem mais convidados que a Noiva");
-        }
-        else
-        {
-            Console.WriteLine("Ambos tem a mesma quantidade de convidados");
-        }
-    }
-    Convidados();
+        int numGuestsGroom = 300;
+        int numGuestsBride = 600;
+        int numGuestsPresentGroom = 400;
+        int numGuestsPresentBride = 400;
 
-    void ConvidadosPresentes()
-    {
-        if (convidadosPresentesNoiva > convidadosPresentesNoivo)
+        void CheckGuests()
         {
-            Console.WriteLine("A Noiva tem mais convidados presentes que o Noivo");
+            if (numGuestsBride > numGuestsGroom)
+            {
+                Console.WriteLine("A Noiva tem mais convidados que o Noivo");
+            }
+            else if (numGuestsBride < numGuestsGroom)
+            {
+                Console.WriteLine("O Noivo tem mais convidados que a Noiva");
+            }
+            else
+            {
+                Console.WriteLine("Ambos têm a mesma quantidade de convidados");
+            }
         }
-        else if (convidadosPresentesNoiva > convidadosPresentesNoivo)
+        CheckGuests();
+
+        void CheckPresentGuests()
         {
-            Console.WriteLine("O Noivo tem mais convidados presentes que a Noiva");
+            if (numGuestsPresentBride > numGuestsPresentGroom)
+            {
+                Console.WriteLine("A Noiva tem mais convidados presentes que o Noivo");
+            }
+            else if (numGuestsPresentBride < numGuestsPresentGroom)
+            {
+                Console.WriteLine("O Noivo tem mais convidados presentes que a Noiva");
+            }
+            else
+            {
+                Console.WriteLine("Ambos têm a mesma quantidade de convidados presentes");
+            }
         }
-        else
-        {
-            Console.WriteLine("Ambos tem a mesma quantidade de convidados presentes");
-        }
+        CheckPresentGuests();
     }
-    ConvidadosPresentes();
 }
-}
+
